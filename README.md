@@ -1,8 +1,5 @@
 # PhoneGap-weibo-ThirdLogin
 
-## Intall
-  sudo cordova plugin add https://github.com/EiyouZk/PhoneGap-wechat-ThirdLogin.git --variable wechatappid=yourwechatappid WECHATAPPSECRET=yourWECHATAPPSECRET
-
 
 ## 问题及解决方法
 
@@ -16,10 +13,15 @@
      
 （3）问题：授权webview弹窗立即消失，跳转到微博页面，无法返回猿app登录第三方登陆页面。
 
+          2）、微博平台上设置的bundle id 是否与你的应用一致
+          
+(4) 问题：授权页面无法显示原app的图标。
+ 
+     解决：检查WEIBO_APP_ID是否准确
      解决：1）、看看info.plist文件里有没添加加url types，在url schems里填上wb+APPKEY，如：wb8728171  
      
           2）、微博平台上设置的bundle id 是否与你的应用一致
           
-(4) 问题：授权页面无法显示原app的图标。
+(5) 问题：授权页面无法显示原app的图标。
  
      解决：检查WEIBO_APP_ID是否准确
