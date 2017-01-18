@@ -17,4 +17,5 @@
 （3）问题：授权webview弹窗立即消失，跳转到微博页面，无法返回猿app登录第三方登陆页面。
 
      解决：1）、看看info.plist文件里有没添加加url types，在url schems里填上wb+APPKEY，如：wb8728171
-           2）、微博平台上设置的bundle id 是否与你的应用一致
+     
+          2）、微博平台上设置的bundle id 是否与你的应用一致
