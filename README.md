@@ -15,13 +15,13 @@
 
           2）、微博平台上设置的bundle id 是否与你的应用一致
           
-(4) 问题：授权页面无法显示原app的图标。
+（4）问题：授权页面无法显示原app的图标。
  
      解决：检查WEIBO_APP_ID是否准确
      解决：1）、看看info.plist文件里有没添加加url types，在url schems里填上wb+APPKEY，如：wb8728171  
      
           2）、微博平台上设置的bundle id 是否与你的应用一致
           
-(5) 问题：授权页面无法显示原app的图标。
+（5）问题：授权页面无法显示原app的图标。
  
      解决：检查WEIBO_APP_ID是否准确
