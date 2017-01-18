@@ -1,8 +1,8 @@
 # PhoneGap-weibo-ThirdLogin
 
 ## Intall
-  ```sudo cordova plugin add https://github.com/EiyouZk/PhoneGap-wechat-ThirdLogin.git --variable wechatappid=yourwechatappid WECHATAPPSECRET=yourWECHATAPPSECRET
-```
+  sudo cordova plugin add https://github.com/EiyouZk/PhoneGap-wechat-ThirdLogin.git --variable wechatappid=yourwechatappid WECHATAPPSECRET=yourWECHATAPPSECRET
+
 
 ## 问题及解决方法
 
